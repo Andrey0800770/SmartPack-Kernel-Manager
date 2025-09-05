@@ -30,7 +30,7 @@ import com.smartpack.kernelmanager.utils.root.Control;
  */
 public class SimpleGPU {
 
-    private static final String SIMPLE_GPU_PARAMETERS = "/sys/module/simple_gpu_algorithm/parameters";
+    private static final String SIMPLE_GPU_PARAMETERS = "/sys/module/adreno_gpu_boost/parameters";
     private static final String SIMPLE_GPU_ACTIVATE = SIMPLE_GPU_PARAMETERS + "/simple_gpu_activate";
     private static final String SIMPLE_GPU_LAZINESS = SIMPLE_GPU_PARAMETERS + "/simple_laziness";
     private static final String SIMPLE_RAMP_THRESHOLD = SIMPLE_GPU_PARAMETERS + "/simple_ramp_threshold";
